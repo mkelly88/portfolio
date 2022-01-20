@@ -3,13 +3,14 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
- background: #F3F0DF;
+ background: ${({ scrollNav }) => (scrollNav ? '#F3F0DF' : 'transparent')};
  height: 80px;
- /* margin-top: -80px; */
+ margin-top: -80px;
  disply: flex;
 justify-content: center;
 align-items: center;
 font-size: 1rem;
+position: sticky;
 top: 0;
 z-index: 10;
 
@@ -75,16 +76,24 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #6E6D6D;
+    color: ${({ scrollNav }) => (scrollNav ? '#F3F0DF' : '#0c0c0c')};
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 30px;
     height: 100%;
     cursor: pointer;
+    spy={true};
+    smooth={true};
+    offset={50};
+    duration={500};
 
     &.active {
-        border-bottom: 3px solid #FE4848;
+        border-bottom: 3px solid #E2C81F;
+    }
+
+    &:hover {
+        border-bottom: 3px solid #E2C81F;
     }
 `;
 

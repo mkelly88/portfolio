@@ -5,7 +5,7 @@ import { ContactTitleContainer, ContactTitle, ContactContainer, ContactItem, Con
 const Contact = () => {
     return (
         <>
-        <ContactTitleContainer>
+        <ContactTitleContainer id='contact'>
             <ContactTitle className="font-face-bbo">Contact</ContactTitle>
         </ContactTitleContainer> 
         <ContactContainer>

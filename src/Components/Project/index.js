@@ -4,7 +4,7 @@ import { ProjectTitleContainer, ProjectTitle, ProjectContainer, ExampleTitle, Ex
 const Project = () => {
     return (
         <>
-            <ProjectTitleContainer>
+            <ProjectTitleContainer id="project">
                 <ProjectTitle className="font-face-bbo">Projects</ProjectTitle>
             </ProjectTitleContainer>
             <ProjectContainer>
