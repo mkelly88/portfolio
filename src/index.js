@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Bastia-Bold.otf';
+import './fonts/Bastia-BoldOutline.otf';
 
 ReactDOM.render(
   <React.StrictMode>

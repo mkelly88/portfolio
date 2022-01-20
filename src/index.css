@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "BastiaOutlined";
+  src: local("BastiaOutlined"),
+    url("./fonts/Bastia-BoldOutline.otf") format("truetype");
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: "BastiaBold";
+  src: local("BastiaBold"),
+    url("./fonts/Bastia-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+.font-link {
+  font-family: 'Nunito', sans-serif;
+}
