@@ -8,10 +8,9 @@ const Project = () => {
                 <ProjectTitle className="font-face-bbo">Projects</ProjectTitle>
             </ProjectTitleContainer>
             <ProjectContainer>
-                <ExampleTitle className="font-face-bb">Travel Map</ExampleTitle>
-                <ExampleLink className="font-link"><a href="https://travelpinmaps.herokuapp.com/">Live Site</a></ExampleLink>
-                <ExampleDesc className="font-link">This is and interactive world map where you can use the search feature to go to any place and write and review about it to share with your friends. You can make your own profile and 
-                see all your friends pins and where they have been in the world. This project was created with ReactJS, MongoDB, Express, Mongoose, CSS, and Node.js.</ExampleDesc>
+                <ExampleTitle className="font-face-bb">Rip Fitness Tracker</ExampleTitle>
+                <ExampleLink className="font-link"><a href="https://rip-tracker.herokuapp.com/">Live Site</a></ExampleLink>
+                <ExampleDesc className="font-link">This is a site to track your fitness, you can make a username and use that to share your results with your friends on your dashboard. This project was created with ReactJS, MongoDB, Express, Mongoose, CSS, and Node.js.</ExampleDesc>
             </ProjectContainer>
             <ProjectContainer>
                 <ExampleTitle className="font-face-bb">National Park Finder</ExampleTitle>
